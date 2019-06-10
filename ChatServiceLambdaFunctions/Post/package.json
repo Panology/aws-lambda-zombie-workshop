@@ -1,0 +1,27 @@
+{
+  "name": "zombies-postmessage",
+  "version": "0.0.1",
+  "description": "Zombie AWS Workshop Lab 4 Bonus",
+  "author": "Darren Lichty, Panology Tech Solutions",
+  "contributors": [
+    "Darren Lichty <delichty@panologyinc.com> (http://panologyinc.com)"
+  ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awslabs/aws-lambda-zombie-workshop"
+  },
+  "main": "ZombiePostMessage.js",
+  "engines": {
+    "node": "4.3.0"
+  },
+  "dependencies": {
+    "slack-notify": "^0.1.6"
+  },
+  "config": {
+    "loglevel": "verbose"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
