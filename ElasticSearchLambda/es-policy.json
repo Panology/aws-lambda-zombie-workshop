@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "YOUR-ROLE-ARN-HERE"
+        ]
+      },
+      "Action": "es:*",
+      "Resource": "YOUR-ELASTICSEARCH-ARN-HERE"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "es:ESHttpGet",
+      "Resource": "YOUR-ELASTICSEARCH-ARN-HERE"
+    }
+  ]
+}
